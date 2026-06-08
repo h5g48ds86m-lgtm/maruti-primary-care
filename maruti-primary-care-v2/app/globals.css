@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{margin:0;font-family:Arial,sans-serif;color:#0B2A4A;background:#fff}
+.hero-bg{background:linear-gradient(rgba(11,42,74,.84),rgba(11,42,74,.78)),url('/images/clinic-hero.svg');background-size:cover;background-position:center}
+.card{border:1px solid #e2e8f0;border-radius:1.25rem;padding:1.5rem;background:white}
+.btn-primary{background:#0B2A4A;color:white;padding:.85rem 1.25rem;border-radius:999px;font-weight:700}
+.btn-gold{background:#C79B52;color:white;padding:.85rem 1.25rem;border-radius:999px;font-weight:700}
+.btn-outline{border:1px solid #0B2A4A;color:#0B2A4A;padding:.85rem 1.25rem;border-radius:999px;font-weight:700}
+input,select,textarea{border:1px solid #cbd5e1;border-radius:.75rem;padding:.85rem;width:100%}
